@@ -432,6 +432,13 @@ M.load_plugin_syntax = function(palette)
         TSPunctBracket = {
             fg = palette.white,
         },
+        yamlBlockMappingKey = {
+            fg = palette.orange,
+        },
+        jinjaVarDelim = {
+            fg = palette.green,
+            style = 'bold',
+        },
         dbui_tables = {
             fg = palette.white,
         },
